@@ -1,6 +1,4 @@
-CREATE DATABASE produto-api
-
-\c produto-api
+DROP TABLE IF EXISTS produto;
 
 CREATE TABLE produto(
    id SERIAL PRIMARY KEY,
